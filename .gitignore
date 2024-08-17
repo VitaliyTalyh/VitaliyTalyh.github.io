@@ -1,8 +1,10 @@
+.jekyll-cache
+Gemfile.lock
 _site
 .sass-cache
-.jekyll-cache
 .jekyll-metadata
-vendor
-node_modules
-bookshop-live.js
+.idea
 .DS_Store
+node_modules
+npm-debug.log
+package-lock.json
