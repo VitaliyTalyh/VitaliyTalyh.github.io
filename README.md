@@ -1,17 +1,53 @@
-# Jekyll Modern Blog
+# Vonge
 
-A Simple, Clean and responsive modern blog for jekyll.
+Vonge is a Personal portfolio/blog site template for Jekyll. Browse through a [live demo](https://jazzed-kale.cloudvent.net/).
+Increase the web presence of your brand with this configurable theme.
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+![Vonge template screenshot](_screenshot.png)
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+Vonge was made by [CloudCannon](http://cloudcannon.com/), the JAMStack Cloud CMS.
+The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
 
-## License
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
 
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
 
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
+## Features
 
-Changes being that I made it jekyll ready and smushed the CSS together.
+* Component library for website building
+* Fully configurable Website
+* Pre-built pages
+* Pre-styled components
+* Blog
+* Category pages
+* Testimonials
+* Portfolio
+* Live editing with [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Search engine optimisation
+
+## Develop
+
+Vonge was built with [Jekyll](http://jekyllrb.com/) version 4.2.1, but should support newer versions as well.
+
+Install the dependencies for Bookshop:
+
+~~~bash
+$ npm install
+~~~
+
+Install the Jekyll dependencies with [Bundler](http://bundler.io/):
+
+~~~bash
+$ npm run jekyll:install
+~~~
+
+Run the website:
+
+~~~bash
+$ npm start
+~~~
+
+
+> [!IMPORTANT]
+> When running locally, the pagination will not work. Deploy to CloudCannon to see successful pagination. 
